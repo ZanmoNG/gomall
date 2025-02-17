@@ -28,5 +28,5 @@ func Home(ctx context.Context, c *app.RequestContext) {
 		return
 	}
 
-	c.HTML(consts.StatusOK, "home.tmpl", resp)
+	c.HTML(consts.StatusOK, "home", resp)
 }

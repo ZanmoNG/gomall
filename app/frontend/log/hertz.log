@@ -1,0 +1,128 @@
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T21:58:08+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T21:58:08+08:00"}
+{"level":"info","msg":" {21:58:13} | 404 |      0s | GET     | /sign-in ","time":"2025-02-17T21:58:13+08:00"}
+{"level":"info","msg":" {21:58:17} | 200 |      0s | GET     | / ","time":"2025-02-17T21:58:18+08:00"}
+{"level":"info","msg":" {21:58:17} | 200 | 80.6185ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T21:58:18+08:00"}
+{"level":"info","msg":" {21:58:17} | 200 | 90.7894ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T21:58:18+08:00"}
+{"level":"info","msg":" {21:58:17} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T21:58:18+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:03:00+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:03:00+08:00"}
+{"level":"info","msg":" {22:03:03} | 200 |      0s | GET     | / ","time":"2025-02-17T22:03:03+08:00"}
+{"level":"info","msg":" {22:03:03} | 304 | 72.0126ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T22:03:03+08:00"}
+{"level":"info","msg":" {22:03:03} | 304 | 75.2329ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T22:03:03+08:00"}
+{"level":"info","msg":" {22:03:03} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:03:03+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:11:32+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:11:32+08:00"}
+{"level":"info","msg":" {22:11:45} | 200 |      0s | GET     | / ","time":"2025-02-17T22:11:46+08:00"}
+{"level":"info","msg":" {22:11:45} | 304 | 90.2103ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T22:11:46+08:00"}
+{"level":"info","msg":" {22:11:45} | 304 | 87.5362ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T22:11:46+08:00"}
+{"level":"info","msg":" {22:11:45} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:11:46+08:00"}
+{"level":"info","msg":" {22:11:47} | 200 |      0s | GET     | / ","time":"2025-02-17T22:11:47+08:00"}
+{"level":"info","msg":" {22:11:47} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:11:47+08:00"}
+{"level":"info","msg":" {22:11:53} | 404 |      0s | GET     | /sign-in ","time":"2025-02-17T22:11:54+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-02-17T22:12:01+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-02-17T22:12:01+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:14:36+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:14:36+08:00"}
+{"level":"info","msg":" {22:14:39} | 404 |      0s | GET     | /sign-in ","time":"2025-02-17T22:14:39+08:00"}
+{"level":"info","msg":" {22:14:41} | 200 |      0s | GET     | / ","time":"2025-02-17T22:14:41+08:00"}
+{"level":"info","msg":" {22:14:41} | 304 | 70.6102ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T22:14:41+08:00"}
+{"level":"info","msg":" {22:14:41} | 304 | 80.2147ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T22:14:41+08:00"}
+{"level":"info","msg":" {22:14:41} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:14:41+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:20:58+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:20:58+08:00"}
+{"level":"info","msg":" {22:20:58} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:20:58+08:00"}
+{"level":"info","msg":" {22:20:58} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:20:58+08:00"}
+{"level":"info","msg":" {22:21:01} | 404 |      0s | GET     | /home ","time":"2025-02-17T22:21:02+08:00"}
+{"level":"info","msg":" {22:21:06} | 200 |      0s | GET     | / ","time":"2025-02-17T22:21:06+08:00"}
+{"level":"info","msg":" {22:21:06} | 304 | 71.2926ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T22:21:07+08:00"}
+{"level":"info","msg":" {22:21:06} | 304 | 81.3508ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T22:21:07+08:00"}
+{"level":"info","msg":" {22:21:06} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:21:07+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:22:15+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:22:15+08:00"}
+{"level":"info","msg":" {22:22:16} | 200 |      0s | GET     | / ","time":"2025-02-17T22:22:16+08:00"}
+{"level":"info","msg":" {22:22:16} | 200 | 83.6188ms | GET     | /static/image/bot_logo.png ","time":"2025-02-17T22:22:16+08:00"}
+{"level":"info","msg":" {22:22:16} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:22:16+08:00"}
+{"level":"info","msg":" {22:22:17} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:22:17+08:00"}
+{"level":"info","msg":" {22:22:17} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:22:17+08:00"}
+{"level":"info","msg":" {22:30:00} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:30:00+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:31:35+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:31:35+08:00"}
+{"level":"info","msg":" {22:31:36} | 200 |      0s | GET     | / ","time":"2025-02-17T22:31:36+08:00"}
+{"level":"info","msg":" {22:31:36} | 304 | 77.239ms | GET     | /static/image/bot_logo.png ","time":"2025-02-17T22:31:36+08:00"}
+{"level":"info","msg":" {22:31:36} | 304 | 77.239ms | GET     | /static/image/bot_AI.png ","time":"2025-02-17T22:31:36+08:00"}
+{"level":"info","msg":" {22:31:36} | 304 | 72.5023ms | GET     | /static/image/bot_calm.png ","time":"2025-02-17T22:31:36+08:00"}
+{"level":"info","msg":" {22:31:36} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:31:36+08:00"}
+{"level":"info","msg":" {22:31:36} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:31:37+08:00"}
+{"level":"info","msg":" {22:31:37} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:31:37+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:32:44+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:32:44+08:00"}
+{"level":"info","msg":" {22:32:44} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:32:45+08:00"}
+{"level":"info","msg":" {22:32:44} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:32:45+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:34:38+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:34:38+08:00"}
+{"level":"info","msg":" {22:34:39} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:34:39+08:00"}
+{"level":"info","msg":" {22:34:39} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:34:39+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:38:22+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:38:22+08:00"}
+{"level":"info","msg":" {22:38:28} | 200 | 1.5049ms | GET     | /sign-in ","time":"2025-02-17T22:38:29+08:00"}
+{"level":"info","msg":" {22:38:29} | 304 | 75.0917ms | GET     | /static/image/bot_logo.png ","time":"2025-02-17T22:38:29+08:00"}
+{"level":"info","msg":" {22:38:29} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:38:29+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:40:17+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:40:17+08:00"}
+{"level":"info","msg":" {22:40:27} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:27+08:00"}
+{"level":"info","msg":" {22:40:27} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:27+08:00"}
+{"level":"info","msg":" {22:40:28} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:28} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:29} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:29} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:29} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:29} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:29+08:00"}
+{"level":"info","msg":" {22:40:29} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:29} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:29} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:29} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:30} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:30} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:30+08:00"}
+{"level":"info","msg":" {22:40:31} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:31+08:00"}
+{"level":"info","msg":" {22:40:33} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:34+08:00"}
+{"level":"info","msg":" {22:40:34} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:40:34+08:00"}
+{"level":"info","msg":" {22:41:00} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:41:00+08:00"}
+{"level":"info","msg":" {22:41:00} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:41:00+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:41:48+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:41:48+08:00"}
+{"level":"info","msg":" {22:41:49} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:41:49+08:00"}
+{"level":"info","msg":" {22:41:49} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:41:49+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:43:41+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:43:41+08:00"}
+{"level":"info","msg":" {22:43:41} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:43:41+08:00"}
+{"level":"info","msg":" {22:43:41} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:43:41+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:49:36+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:49:36+08:00"}
+{"level":"info","msg":" {22:49:36} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:49:37+08:00"}
+{"level":"info","msg":" {22:49:36} | 304 | 75.9349ms | GET     | /static/image/bot_logo.png ","time":"2025-02-17T22:49:37+08:00"}
+{"level":"info","msg":" {22:49:36} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:49:37+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:50:52+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:50:52+08:00"}
+{"level":"info","msg":" {22:50:52} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:50:52+08:00"}
+{"level":"info","msg":" {22:50:52} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:50:52+08:00"}
+{"level":"info","msg":" {22:50:55} | 404 |      0s | POST    | /auth/login ","time":"2025-02-17T22:50:55+08:00"}
+{"level":"info","msg":" {22:51:01} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:51:01+08:00"}
+{"level":"info","msg":" {22:51:01} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:51:01+08:00"}
+{"level":"info","msg":" {22:51:03} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:51:03+08:00"}
+{"level":"info","msg":" {22:51:03} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:51:03+08:00"}
+{"level":"info","msg":" {22:51:03} | 404 |      0s | POST    | /auth/login ","time":"2025-02-17T22:51:03+08:00"}
+{"level":"info","msg":" {22:51:04} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:51:04+08:00"}
+{"level":"info","msg":" {22:51:04} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:51:05+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-02-17T22:53:10+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-02-17T22:53:10+08:00"}
+{"level":"info","msg":" {22:53:10} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:53:11+08:00"}
+{"level":"info","msg":" {22:53:10} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:53:11+08:00"}
+{"level":"info","msg":" {22:53:12} | 200 | 228.6µs | GET     | /sign-in ","time":"2025-02-17T22:53:12+08:00"}
+{"level":"info","msg":" {22:53:12} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:53:12+08:00"}
+{"level":"info","msg":" {22:53:13} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:53:13+08:00"}
+{"level":"info","msg":" {22:53:13} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:53:13+08:00"}
+{"level":"info","msg":" {22:53:13} | 200 |      0s | GET     | /sign-in ","time":"2025-02-17T22:53:13+08:00"}
+{"level":"info","msg":" {22:53:13} | 404 |      0s | GET     | /favicon.ico ","time":"2025-02-17T22:53:13+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-02-17T23:03:34+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-02-17T23:03:34+08:00"}
