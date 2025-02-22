@@ -2,10 +2,10 @@ module github.com/ZanmoNG/gomall/app/user
 
 go 1.23.5
 
-replace awesomeProject/rpc_gen => ../../rpc_gen
+replace github.com/ZanmoNG/gomall/rpc_gen => ../../rpc_gen
 
 require (
-	awesomeProject/rpc_gen v0.0.0-00010101000000-000000000000
+	github.com/ZanmoNG/gomall/rpc_gen v0.0.0-00010101000000-000000000000
 	github.com/cloudwego/kitex v0.12.2
 	github.com/joho/godotenv v1.5.1
 	github.com/kitex-contrib/obs-opentelemetry/logging/logrus v0.0.0-20241120035129-55da83caab1b

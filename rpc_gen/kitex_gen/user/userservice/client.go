@@ -3,8 +3,8 @@
 package userservice
 
 import (
-	user "awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
+	user "github.com/ZanmoNG/gomall/rpc_gen/ki
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
 )

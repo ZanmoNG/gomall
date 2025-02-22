@@ -1,9 +1,9 @@
 package service
 
 import (
-	user "awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
 	"github.com/ZanmoNG/gomall/app/user/biz/dal/mysql"
+	user "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	"github.com/joho/godotenv"
 	"testing"
 )

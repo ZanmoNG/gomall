@@ -1,11 +1,11 @@
 package service
 
 import (
-	"awesomeProject/app/user/biz/dal/mysql"
-	"awesomeProject/app/user/biz/model"
-	user "awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
 	"errors"
+	"github.com/ZanmoNG/gomall/app/user/biz/dal/mysql"
+	"github.com/ZanmoNG/gomall/app/user/biz/model"
+	user "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

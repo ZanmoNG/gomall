@@ -1,8 +1,8 @@
 package service
 
 import (
-	user "awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
+	user "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	"testing"
 )
 

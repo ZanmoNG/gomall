@@ -3,7 +3,7 @@
 package userservice
 
 import (
-	user "awesomeProject/rpc_gen/kitex_gen/user"
+	user "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	server "github.com/cloudwego/kitex/server"
 )
 

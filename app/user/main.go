@@ -1,14 +1,14 @@
 package main
 
 import (
-	"awesomeProject/app/user/biz/dal"
-	"awesomeProject/rpc_gen/kitex_gen/user/userservice"
+	"github.com/ZanmoNG/gomall/app/user/biz/dal"
+	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user/userservice"
 	"github.com/joho/godotenv"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"net"
 	"time"
 
-	"awesomeProject/app/user/conf"
+	"github.com/ZanmoNG/gomall/app/user/conf"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/server"

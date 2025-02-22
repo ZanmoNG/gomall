@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"awesomeProject/app/user/conf"
+	"github.com/ZanmoNG/gomall/app/user/conf"
 	"github.com/redis/go-redis/v9"
 )
 

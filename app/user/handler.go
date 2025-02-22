@@ -1,9 +1,9 @@
 package main
 
 import (
-	"awesomeProject/app/user/biz/service"
-	"awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
+	"github.com/ZanmoNG/gomall/app/user/biz/service"
+	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 )
 
 // UserServiceImpl implements the last service interface defined in the IDL.

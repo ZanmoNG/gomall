@@ -3,9 +3,9 @@
 package userservice
 
 import (
-	user "awesomeProject/rpc_gen/kitex_gen/user"
 	"context"
 	"errors"
+	user "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
 	streaming "github.com/cloudwego/kitex/pkg/streaming"

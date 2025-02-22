@@ -1,8 +1,8 @@
 package dal
 
 import (
-	"awesomeProject/app/user/biz/dal/mysql"
-	"awesomeProject/app/user/biz/dal/redis"
+	"github.com/ZanmoNG/gomall/app/user/biz/dal/mysql"
+	"github.com/ZanmoNG/gomall/app/user/biz/dal/redis"
 )
 
 func Init() {

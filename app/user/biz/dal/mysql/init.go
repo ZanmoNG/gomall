@@ -1,9 +1,9 @@
 package mysql
 
 import (
-	"awesomeProject/app/user/biz/model"
-	"awesomeProject/app/user/conf"
 	"fmt"
+	"github.com/ZanmoNG/gomall/app/user/biz/model"
+	"github.com/ZanmoNG/gomall/app/user/conf"
 	"os"
 
 	"gorm.io/driver/mysql"
