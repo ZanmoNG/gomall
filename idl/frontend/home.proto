@@ -1,16 +1,17 @@
-// idl/frontend/home.proto
+// idl/hello/hello.proto
 syntax = "proto3";
 
-package frontend.home;
+package fronted.home;
 
-option go_package = "frontend/home";
+option go_package = "fronted/home";
 
+import "frontend/common.proto";
 import "api.proto";
 
 message Empty {}
 
 service HomeService {
-   rpc Home(Empty) returns(Empty) {
-      option (api.get) = "/";
-   }
+  rpc Home(common.Empty) returns(common.Empty) {
+    option (api.get) = "/";
+  }
 }
