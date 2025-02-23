@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/ZanmoNG/gomall/app/user/biz/dal"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user/userservice"
+
 	"github.com/joho/godotenv"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"net"

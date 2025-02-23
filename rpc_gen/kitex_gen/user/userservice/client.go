@@ -4,7 +4,7 @@ package userservice
 
 import (
 	"context"
-	user "github.com/ZanmoNG/gomall/rpc_gen/ki
+	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
 )
