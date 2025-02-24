@@ -1,20 +1,16 @@
 {{define "home"}}
 {{template "header" .}}
 <div class="row">
+  {{range .Items}}
   <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-5 border-0">
-    <img src="/static/image/bot_AI.png" class="card-img-top" alt="...">
+    <img src="{{.Picture}}" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">创造性AI</p>
-      <h5 class="card-title">$104</h5>
+      <p class="card-text">{{.Name}}</p>
+      <h5 class="card-title">{{.Price}}</h5>
     </div>
   </div>
-  <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-5 border-0">
-    <img src="/static/image/bot_calm.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text">冷静头脑</p>
-      <h5 class="card-title">$56</h5>
-    </div>
-  </div>
+  {{end}}
+
 </div>
 {{template "footer" .}}
 {{end}}

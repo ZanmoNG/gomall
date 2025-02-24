@@ -6,6 +6,7 @@ import (
 	home "github.com/cloudwego/biz-demo/gomall/app/frontend/biz/handler/home"
 	"github.com/cloudwego/hertz/pkg/app/server"
 )
+
 /*
  This file will register all the routes of the services in the master idl.
  And it will update automatically when you use the "update" command for the idl.

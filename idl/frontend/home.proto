@@ -9,7 +9,7 @@ import "frontend/common.proto";
 option go_package = "frontend/home";
 
 service HomeService {
-   rpc Home(commom.Empty) returns(common.Empty) {
+   rpc Home(common.Empty) returns(common.Empty) {
       option (api.get) = "/";
    }
 }
