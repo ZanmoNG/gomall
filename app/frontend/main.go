@@ -33,7 +33,7 @@ func main() {
 	_ = godotenv.Load()
 	// init dal
 	// dal.Init()
-	rpc.Init()
+	rpc.InitClient()
 	address := conf.GetConf().Hertz.Address
 	h := server.New(server.WithHostPorts(address))
 
