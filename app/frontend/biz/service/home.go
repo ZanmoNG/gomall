@@ -2,12 +2,11 @@ package service
 
 import (
 	"context"
+	common "github.com/ZanmoNG/gomall/app/frontend/hertz_gen/fronted/common"
 	"github.com/ZanmoNG/gomall/app/frontend/infra/rpc"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/product"
-	"github.com/cloudwego/hertz/pkg/common/utils"
-
-	common "github.com/ZanmoNG/gomall/app/frontend/hertz_gen/fronted/common"
 	"github.com/cloudwego/hertz/pkg/app"
+	"github.com/cloudwego/hertz/pkg/common/utils"
 )
 
 type HomeService struct {
@@ -24,6 +23,7 @@ func (h *HomeService) Run(req *common.Empty) (res map[string]any, err error) {
 	if err != nil {
 		return nil, err
 	}
+
 	//var resp = make(map[string]any)
 	//items := []map[string]any{
 	//	{"Name": "Shimoe Koharu", "Price": "Free", "Picture": "/static/image/delicious_1.jpg"},
@@ -35,8 +35,11 @@ func (h *HomeService) Run(req *common.Empty) (res map[string]any, err error) {
 	//}
 	//resp["Title"] = "Hot Pantyhose"
 	//resp["Items"] = items
+
 	return utils.H{
-		"title": "Hot Pantyhose",
-		"items": products.Products,
+		"Title": "Hot Pantyhose",
+		"Items": products.Products,
 	}, nil
+
+	//return resp, nil
 }

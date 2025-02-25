@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	product "github.com/ZanmoNG/gomall/rpc_gen/product"
+	product "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/product"
 	"testing"
 )
 
