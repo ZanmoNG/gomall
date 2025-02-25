@@ -27,7 +27,7 @@ type CartItem struct {
 	unknownFields protoimpl.UnknownFields
 
 	ProductId uint32 `protobuf:"varint,1,opt,name=product_id,json=productId,proto3" json:"product_id,omitempty"`
-	Quantity  int32  `protobuf:"varint,2,opt,name=quantity,proto3" json:"quantity,omitempty"`
+	Quantity  uint32 `protobuf:"varint,2,opt,name=quantity,proto3" json:"quantity,omitempty"`
 }
 
 func (x *CartItem) Reset() {
@@ -69,7 +69,7 @@ func (x *CartItem) GetProductId() uint32 {
 	return 0
 }
 
-func (x *CartItem) GetQuantity() int32 {
+func (x *CartItem) GetQuantity() uint32 {
 	if x != nil {
 		return x.Quantity
 	}
