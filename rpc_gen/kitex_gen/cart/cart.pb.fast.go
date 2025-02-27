@@ -43,7 +43,7 @@ func (x *CartItem) fastReadField1(buf []byte, _type int8) (offset int, err error
 }
 
 func (x *CartItem) fastReadField2(buf []byte, _type int8) (offset int, err error) {
-	x.Quantity, offset, err = fastpb.ReadInt32(buf, _type)
+	x.Quantity, offset, err = fastpb.ReadUint32(buf, _type)
 	return offset, err
 }
 
@@ -214,7 +214,7 @@ func (x *CartItem) fastWriteField2(buf []byte) (offset int) {
 	if x.Quantity == 0 {
 		return offset
 	}
-	offset += fastpb.WriteInt32(buf[offset:], 2, x.GetQuantity())
+	offset += fastpb.WriteUint32(buf[offset:], 2, x.GetQuantity())
 	return offset
 }
 
@@ -328,7 +328,7 @@ func (x *CartItem) sizeField2() (n int) {
 	if x.Quantity == 0 {
 		return n
 	}
-	n += fastpb.SizeInt32(2, x.GetQuantity())
+	n += fastpb.SizeUint32(2, x.GetQuantity())
 	return n
 }
 

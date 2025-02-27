@@ -3,6 +3,8 @@ package rpc
 import (
 	"github.com/ZanmoNG/gomall/app/frontend/conf"
 	frontendUtils "github.com/ZanmoNG/gomall/app/frontend/utils"
+	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/cart/cartservice"
+	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/checkout/checkoutservice"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/product/productcatalogservice"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/user/userservice"
 	"github.com/cloudwego/kitex/client"
@@ -11,15 +13,19 @@ import (
 )
 
 var (
-	UserClient    userservice.Client
-	ProductClient productcatalogservice.Client
-	once          sync.Once
+	UserClient     userservice.Client
+	ProductClient  productcatalogservice.Client
+	CartClient     cartservice.Client
+	CheckoutClient checkoutservice.Client
+	once           sync.Once
 )
 
 func InitClient() {
 	once.Do(func() {
 		initUserClient()
 		initProductClient()
+		initCartClient()
+		initCheckoutClient()
 	})
 }
 
@@ -40,5 +46,25 @@ func initProductClient() {
 	opts = append(opts, client.WithResolver(r))
 
 	ProductClient, err = productcatalogservice.NewClient("product", opts...)
+	frontendUtils.MustHandleError(err)
+}
+
+func initCartClient() {
+	var opts []client.Option
+	r, err := consul.NewConsulResolver(conf.GetConf().Hertz.RegistryAddr)
+	frontendUtils.MustHandleError(err)
+	opts = append(opts, client.WithResolver(r))
+
+	CartClient, err = cartservice.NewClient("cart", opts...)
+	frontendUtils.MustHandleError(err)
+}
+
+func initCheckoutClient() {
+	var opts []client.Option
+	r, err := consul.NewConsulResolver(conf.GetConf().Hertz.RegistryAddr)
+	frontendUtils.MustHandleError(err)
+	opts = append(opts, client.WithResolver(r))
+
+	CheckoutClient, err = checkoutservice.NewClient("checkout", opts...)
 	frontendUtils.MustHandleError(err)
 }

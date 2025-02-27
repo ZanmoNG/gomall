@@ -9,7 +9,10 @@ import (
 )
 
 func TestRegister_Run(t *testing.T) {
-	godotenv.Load("../../.env")
+	err := godotenv.Load("../../.env")
+	if err != nil {
+		return
+	}
 	mysql.Init()
 	ctx := context.Background()
 	s := NewRegisterService(ctx)

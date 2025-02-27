@@ -2,6 +2,7 @@ package mysql
 
 import (
 	"fmt"
+	"github.com/ZanmoNG/gomall/app/cart/biz/model"
 	"github.com/ZanmoNG/gomall/app/cart/conf"
 	"os"
 
@@ -22,6 +23,7 @@ func Init() {
 			SkipDefaultTransaction: true,
 		},
 	)
+	DB.AutoMigrate(&model.Cart{})
 	if err != nil {
 		panic(err)
 	}

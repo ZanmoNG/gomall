@@ -2,28 +2,44 @@ package middleware
 
 import (
 	"context"
-	frontendUtils "github.com/ZanmoNG/gomall/app/frontend/biz/utils"
+	"fmt"
+	"github.com/ZanmoNG/gomall/app/frontend/utils"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/hertz-contrib/sessions"
 )
 
 func GlobalAuth() app.HandlerFunc {
 	return func(ctx context.Context, c *app.RequestContext) {
-		s := sessions.Default(c)
-		ctx = context.WithValue(ctx, frontendUtils.SessionUserId, s.Get("user_id"))
+		session := sessions.Default(c)
+		userId := session.Get("user_id")
+		if userId == nil {
+			c.Next(ctx)
+			return
+		}
+		ctx = context.WithValue(ctx, utils.UserIdKey, userId)
 		c.Next(ctx)
 	}
 }
 
 func Auth() app.HandlerFunc {
 	return func(ctx context.Context, c *app.RequestContext) {
-		s := sessions.Default(c)
-		userId := s.Get("user_id")
+		session := sessions.Default(c)
+		userId := session.Get("user_id")
 		if userId == nil {
-			c.Redirect(302, []byte("/sign-in?next="+c.FullPath()))
+			byteRef := c.GetHeader("Referer")
+			ref := string(byteRef)
+			next := "/sign-in"
+			if ref != "" {
+				if utils.ValidateNext(ref) {
+					next = fmt.Sprintf("%s?next=%s", next, ref)
+				}
+			}
+			c.Redirect(302, []byte(next))
 			c.Abort()
+			c.Next(ctx)
 			return
 		}
+		ctx = context.WithValue(ctx, utils.UserIdKey, userId)
 		c.Next(ctx)
 	}
 }

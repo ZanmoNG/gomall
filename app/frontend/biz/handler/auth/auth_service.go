@@ -28,7 +28,7 @@ func Login(ctx context.Context, c *app.RequestContext) {
 		return
 	}
 
-	c.Redirect(consts.StatusOK, []byte(redirect))
+	c.Redirect(consts.StatusFound, []byte(redirect))
 
 	//utils.SendSuccessResponse(ctx, c, consts.StatusOK, "done!")
 }
@@ -70,5 +70,6 @@ func Logout(ctx context.Context, c *app.RequestContext) {
 		utils.SendErrResponse(ctx, c, consts.StatusOK, err)
 		return
 	}
-	c.Redirect(consts.StatusOK, []byte("/"))
+	redirect := "/"
+	c.Redirect(consts.StatusFound, []byte(redirect))
 }

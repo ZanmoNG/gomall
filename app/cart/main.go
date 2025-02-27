@@ -20,11 +20,10 @@ import (
 
 func main() {
 	_ = godotenv.Load()
-
 	dal.Init()
 	rpc.InitClient()
-	opts := kitexInit()
 
+	opts := kitexInit()
 	svr := cartservice.NewServer(new(CartServiceImpl), opts...)
 
 	err := svr.Run()

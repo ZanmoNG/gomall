@@ -1,0 +1,71 @@
+cwgo server -type RPC -service -I -idl idl/echo.proto -moudle moudles
+
+cwgo server -I ../../idl  --type RPC --module code_for_GO/gomall/demo/demo_proto --service demo_proto --idl ../../idl/echo.proto
+
+code_for_GO
+
+cwgo server -I ../../idl  --type RPC --module code_for_GO --service demo_proto --idl ../../idl/echo.proto
+
+try
+awesomeProject
+
+cwgo server -I idl  --type RPC --module try --service demo --idl idl/auth.proto --idl idl/cart.proto --idl idl/checkout.proto --idl idl/order.proto --idl idl/payment.proto --idl idl/product.proto --idl idl/user.proto
+
+home
+
+cwgo server -I ../../idl  --type HTTP --module awesomeProject/app/frontend --service frontend --idl ../../idl/frontend/home.proto
+
+cwgo server -I ../idl  --type HTTP --module awesomeProject --service frontend --idl ../idl/fronted/home.proto
+
+cwgo server -I ../../idl  --type HTTP --module awesomeProject/app/frontend --service frontend --idl ../../idl/frontend/auth_page.proto
+
+cwgo client --type RPC --service user --module awesomeProject/rpc_gen --I ../idl --idl ../idl/user.proto
+
+cwgo server --type RPC --service user --module awesomeProject/app/user --pass "-use awesomeProject/rpc_gen" --I ../../idl --idl ../../idl/user.proto
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
+awesomeproject-mysql-1
+
+docker inspect awesomeproject-mysql-1 | grep MYSQL_ROOT_PASSWORD
+
+docker logs awesomeproject-mysql-1
+
+docker restart awesomeproject-mysql-1
+
+github.com/ZanmoNG/gomall
+
+${ROOT_MOD}
+
+cwgo server --type RPC --service product --module github.com/ZanmoNG/gomall/app/product --pass "-use github.com/ZanmoNG/gomall/rpc_gen" --I ../../idl --idl ../../idl/product.proto
+
+cwgo client --type RPC --service product --module github.com/ZanmoNG/gomall/rpc_gen --I ../idl --idl ../idl/product.proto
+
+cwgo server -I ../../idl  --type HTTP --module github.com/ZanmoNG/gomall/app/frontend --service frontend --idl ../../idl/frontend/product_page.proto
+
+cwgo server -I ../../idl  --type HTTP --module github.com/ZanmoNG/gomall/app/frontend --service frontend --idl ../../idl/frontend/category_page.proto
+
+cart
+
+cwgo server --type RPC --service cart --module github.com/ZanmoNG/gomall/app/cart --pass "-use github.com/ZanmoNG/gomall/rpc_gen" --I ../../idl --idl ../../idl/cart.proto
+
+cwgo client --type RPC --service cart --module github.com/ZanmoNG/gomall/rpc_gen --I ../idl --idl ../idl/cart.proto
+
+cwgo server -I ../../idl  --type HTTP --module github.com/ZanmoNG/gomall/app/frontend --service frontend --idl ../../idl/frontend/cart_page.proto
+
+payment
+
+cwgo server --type RPC --service payment --module github.com/ZanmoNG/gomall/app/payment --pass "-use github.com/ZanmoNG/gomall/rpc_gen" --I ../../idl --idl ../../idl/payment.proto
+
+cwgo client --type RPC --service payment --module github.com/ZanmoNG/gomall/rpc_gen --I ../idl --idl ../idl/payment.proto
+
+checkout
+
+cwgo server --type RPC --service checkout --module github.com/ZanmoNG/gomall/app/checkout --pass "-use github.com/ZanmoNG/gomall/rpc_gen" --I ../../idl --idl ../../idl/checkout.proto
+
+cwgo client --type RPC --service checkout --module github.com/ZanmoNG/gomall/rpc_gen --I ../idl --idl ../idl/checkout.proto
+
+cwgo server -I ../../idl  --type HTTP --module github.com/ZanmoNG/gomall/app/frontend --service frontend --idl ../../idl/frontend/checkout_page.proto
+
+
+

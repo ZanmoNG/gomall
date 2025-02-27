@@ -20,11 +20,6 @@ func NewLoginService(Context context.Context, RequestContext *app.RequestContext
 }
 
 func (h *LoginService) Run(req *auth.LoginReq) (redirect string, err error) {
-	//defer func() {
-	// hlog.CtxInfof(h.Context, "req = %+v", req)
-	// hlog.CtxInfof(h.Context, "resp = %+v", resp)
-	//}()
-	// User SVC API
 	resp, err := rpc.UserClient.Login(h.Context, &user.LoginReq{
 		Email:    req.Email,
 		Password: req.Password,
@@ -43,5 +38,5 @@ func (h *LoginService) Run(req *auth.LoginReq) (redirect string, err error) {
 	if req.Next != "" {
 		redirect = req.Next
 	}
-	return
+	return redirect, nil
 }

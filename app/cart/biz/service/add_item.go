@@ -2,9 +2,11 @@ package service
 
 import (
 	"context"
+
+	"github.com/ZanmoNG/gomall/app/cart/biz/dal/mysql"
 	"github.com/ZanmoNG/gomall/app/cart/biz/model"
 	"github.com/ZanmoNG/gomall/app/cart/rpc"
-	"github.com/ZanmoNG/gomall/app/product/biz/dal/mysql"
+
 	cart "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/cart"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/product"
 	"github.com/cloudwego/kitex/pkg/kerrors"
@@ -20,21 +22,20 @@ func NewAddItemService(ctx context.Context) *AddItemService {
 // Run create note info
 func (s *AddItemService) Run(req *cart.AddItemReq) (resp *cart.AddItemResp, err error) {
 	// Finish your business logic.
-	productResp, err := rpc.ProductClient.GetProduct(s.ctx, &product.GetProductReq{Id: req.Item.ProductId})
+	getProduct, err := rpc.ProductClient.GetProduct(s.ctx, &product.GetProductReq{Id: req.Item.GetProductId()})
 	if err != nil {
 		return nil, err
 	}
-	if productResp == nil || productResp.Product.Id == 0 {
-		return nil, kerrors.NewBizStatusError(40004, "product not found")
+
+	if getProduct.Product == nil || getProduct.Product.Id == 0 {
+		return nil, kerrors.NewBizStatusError(40004, "product not exist")
 	}
 
-	cartItem := model.Cart{
-		UserID:    req.UserId,
+	err = model.AddCart(mysql.DB, s.ctx, &model.Cart{
+		UserId:    req.UserId,
 		ProductId: req.Item.ProductId,
-		Qty:       req.Item.Quantity,
-	}
-
-	err = model.AddItem(s.ctx, mysql.DB, cartItem)
+		Qty:       uint32(req.Item.Quantity),
+	})
 	if err != nil {
 		return nil, kerrors.NewBizStatusError(50000, err.Error())
 	}
