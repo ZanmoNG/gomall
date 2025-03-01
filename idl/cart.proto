@@ -4,7 +4,7 @@ package cart;
 
 option go_package = "/cart";
 
-service UserService {
+service CartService {
   rpc AddItem (AddItemReq) returns (AddItemResp) {}
   rpc GetCart(GetCartReq) returns (GetCartResp) {}
   rpc EmptyCart(EmptyCartReq) returns (EmptyCartResp) {}

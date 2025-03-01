@@ -9,7 +9,7 @@ import (
 	"github.com/cloudwego/kitex/server"
 	kitexlogrus "github.com/kitex-contrib/obs-opentelemetry/logging/logrus"
 	"github.com/cloudwego/biz-demo/gomall/app/cart/conf"
-	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/cart/userservice"
+	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/cart/cartservice"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 )
@@ -17,7 +17,7 @@ import (
 func main() {
 	opts := kitexInit()
 
-	svr := userservice.NewServer(new(UserServiceImpl), opts...)
+	svr := cartservice.NewServer(new(CartServiceImpl), opts...)
 
 	err := svr.Run()
 	if err != nil {

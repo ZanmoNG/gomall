@@ -4,13 +4,13 @@ import (
 	"context"
 	cart "github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/cart"
 
-	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/cart/userservice"
+	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/cart/cartservice"
 	"github.com/cloudwego/kitex/client"
 	"github.com/cloudwego/kitex/client/callopt"
 )
 
 type RPCClient interface {
-	KitexClient() userservice.Client
+	KitexClient() cartservice.Client
 	Service() string
 	AddItem(ctx context.Context, Req *cart.AddItemReq, callOptions ...callopt.Option) (r *cart.AddItemResp, err error)
 	GetCart(ctx context.Context, Req *cart.GetCartReq, callOptions ...callopt.Option) (r *cart.GetCartResp, err error)
@@ -18,7 +18,7 @@ type RPCClient interface {
 }
 
 func NewRPCClient(dstService string, opts ...client.Option) (RPCClient, error) {
-	kitexClient, err := userservice.NewClient(dstService, opts...)
+	kitexClient, err := cartservice.NewClient(dstService, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -32,14 +32,14 @@ func NewRPCClient(dstService string, opts ...client.Option) (RPCClient, error) {
 
 type clientImpl struct {
 	service     string
-	kitexClient userservice.Client
+	kitexClient cartservice.Client
 }
 
 func (c *clientImpl) Service() string {
 	return c.service
 }
 
-func (c *clientImpl) KitexClient() userservice.Client {
+func (c *clientImpl) KitexClient() cartservice.Client {
 	return c.kitexClient
 }
 
