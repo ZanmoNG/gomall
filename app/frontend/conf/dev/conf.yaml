@@ -1,8 +1,7 @@
 hertz:
-  service: "frontend"
   address: ":8080"
   metrics_port: 8090
-  enable_pprof: true
+  enable_pprof: false
   enable_gzip: true
   enable_access_log: true
   log_level: info
@@ -10,10 +9,10 @@ hertz:
   log_max_size: 10
   log_max_age: 3
   log_max_backups: 50
-  registry_addr: "127.0.0.1:8500"
+  registry_addr: "localhost:8500"
 
 mysql:
-  dsn: "%s:%s@tcp(%s:3306)/frontend?charset=utf8mb4&parseTime=True&loc=Local"
+  dsn: "gorm:gorm@tcp(127.0.0.1:3306)/gorm?charset=utf8mb4&parseTime=True&loc=Local"
 
 redis:
   address: "127.0.0.1:6379"

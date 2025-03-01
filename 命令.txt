@@ -67,5 +67,11 @@ cwgo client --type RPC --service checkout --module github.com/ZanmoNG/gomall/rpc
 
 cwgo server -I ../../idl  --type HTTP --module github.com/ZanmoNG/gomall/app/frontend --service frontend --idl ../../idl/frontend/checkout_page.proto
 
+order
+
+cwgo server --type RPC --service order --module github.com/ZanmoNG/gomall/app/order --pass "-use github.com/ZanmoNG/gomall/rpc_gen/kitex_gen" --I ../../idl --idl ../../idl/order.proto
+
+cwgo client --type RPC --service order --module github.com/ZanmoNG/gomall/rpc_gen --I ../idl --idl ../idl/order.proto
+
 
 
