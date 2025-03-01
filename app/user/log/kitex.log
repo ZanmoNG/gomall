@@ -1,0 +1,35 @@
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T18:27:26+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:2379/v1/agent/service/register\": dial tcp 127.0.0.1:2379: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T18:27:27+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T18:29:40+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:06:20+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:8500/v1/agent/service/register\": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T22:06:21+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:08:27+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:8500/v1/agent/service/register\": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T22:08:28+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:20:37+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:8500/v1/agent/service/register\": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T22:20:38+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:23:23+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:8500/v1/agent/service/register\": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T22:23:24+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:47:35+08:00"}
+{"level":"error","msg":"KITEX: received error and exit: error=Put \"http://127.0.0.1:8500/v1/agent/service/register\": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.","time":"2025-02-24T22:47:36+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-24T22:49:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8888","time":"2025-02-25T09:48:00+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T13:30:22+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T13:37:32+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T14:52:32+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:02:23+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:02:52+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:03:43+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:05:18+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:35:36+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:64609, error=biz error: crypto/bcrypt: hashedPassword is not the hash of the given password","time":"2025-02-27T15:37:57+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-27T15:49:04+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:60895, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:60895: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-02-27T15:50:22+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:57765, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:57765: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-02-27T15:51:09+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-28T09:57:13+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-28T14:38:26+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-28T15:40:40+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-28T15:41:00+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-02-28T15:42:24+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:55697, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:55697: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-02-28T15:45:12+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:56383, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:56383: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-02-28T15:53:31+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-03-01T10:36:46+08:00"}
