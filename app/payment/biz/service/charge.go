@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cloudwego/biz-demo/gomall/app/payment/biz/model"
-	"github.com/cloudwego/biz-demo/gomall/app/product/biz/dal/mysql"
+	"github.com/cloudwego/biz-demo/gomall/app/payment/biz/dal/model"
+	"github.com/cloudwego/biz-demo/gomall/app/payment/biz/dal/mysql"
 	payment "github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/payment"
 	"github.com/cloudwego/kitex/pkg/kerrors"
 	creditcard "github.com/durango/go-credit-card"
@@ -51,5 +51,5 @@ func (s *ChargeService) Run(req *payment.ChargeReq) (resp *payment.ChargeResp, e
 		return nil, kerrors.NewGRPCBizStatusError(4005002, err.Error())
 	}
 
-	return
+	return &payment.ChargeResp{TransactionId: transactionId.String()}, nil
 }

@@ -4,19 +4,19 @@ import (
 	"context"
 	payment "github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/payment"
 
-	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/payment/chargeservice"
+	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/payment/paymentservice"
 	"github.com/cloudwego/kitex/client"
 	"github.com/cloudwego/kitex/client/callopt"
 )
 
 type RPCClient interface {
-	KitexClient() chargeservice.Client
+	KitexClient() paymentservice.Client
 	Service() string
 	Charge(ctx context.Context, Req *payment.ChargeReq, callOptions ...callopt.Option) (r *payment.ChargeResp, err error)
 }
 
 func NewRPCClient(dstService string, opts ...client.Option) (RPCClient, error) {
-	kitexClient, err := chargeservice.NewClient(dstService, opts...)
+	kitexClient, err := paymentservice.NewClient(dstService, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -30,14 +30,14 @@ func NewRPCClient(dstService string, opts ...client.Option) (RPCClient, error) {
 
 type clientImpl struct {
 	service     string
-	kitexClient chargeservice.Client
+	kitexClient paymentservice.Client
 }
 
 func (c *clientImpl) Service() string {
 	return c.service
 }
 
-func (c *clientImpl) KitexClient() chargeservice.Client {
+func (c *clientImpl) KitexClient() paymentservice.Client {
 	return c.kitexClient
 }
 
