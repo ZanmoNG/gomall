@@ -28,7 +28,7 @@ func (h *RegisterService) Run(req *auth.RegisterReq) (resp *common.Empty, err er
 	userResp, err := rpc.UserClient.Register(h.Context, &user.RegisterReq{
 		Email:           req.Email,
 		Password:        req.Password,
-		ConfirmPassword: req.PasswordConfirm,
+		PasswordConfirm: req.PasswordConfirm,
 	})
 	if err != nil {
 		return nil, err

@@ -22,7 +22,7 @@ func TestRegister_Run(t *testing.T) {
 	req := &user.RegisterReq{
 		Email:           "demo@admin.com",
 		Password:        "12312",
-		ConfirmPassword: "12312",
+		PasswordConfirm: "12312",
 	}
 	resp, err := s.Run(req)
 	t.Logf("err: %v", err)

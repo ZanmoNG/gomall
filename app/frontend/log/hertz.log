@@ -5332,3 +5332,979 @@
 {"level":"info","msg":" {10:38:08} | 404 | 1.5847ms | GET     | /favicon.ico ","time":"2025-03-01T10:38:08+08:00"}
 {"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T10:48:41+08:00"}
 {"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T10:48:41+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T14:41:41+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T14:41:41+08:00"}
+{"level":"info","msg":" {14:41:45} | 200 | 14.1941ms | GET     | / ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 2.8815ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.7172ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.5914ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.5687ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.5781ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.055ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.055ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:46} | 404 | 1.7012ms | GET     | /favicon.ico ","time":"2025-03-01T14:41:46+08:00"}
+{"level":"info","msg":" {14:41:50} | 200 | 1.7561ms | GET     | /sign-in ","time":"2025-03-01T14:41:50+08:00"}
+{"level":"info","msg":" {14:41:50} | 404 | 1.4911ms | GET     | /favicon.ico ","time":"2025-03-01T14:41:50+08:00"}
+{"level":"info","msg":" {14:41:51} | 200 | 1.3958ms | GET     | /sign-up ","time":"2025-03-01T14:41:52+08:00"}
+{"level":"info","msg":" {14:41:51} | 404 | 1.5632ms | GET     | /favicon.ico ","time":"2025-03-01T14:41:52+08:00"}
+{"level":"info","msg":" {14:41:58} | 302 | 54.7716ms | POST    | /auth/register ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 200 | 3.1648ms | GET     | / ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 2.6856ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.1736ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.1736ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.0408ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.0408ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.0408ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.5575ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:41:58} | 404 | 1.0563ms | GET     | /favicon.ico ","time":"2025-03-01T14:41:58+08:00"}
+{"level":"info","msg":" {14:42:04} | 302 | 2.5343ms | POST    | /auth/logout ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 200 | 3.1567ms | GET     | / ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.6106ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.6106ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.6106ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.6106ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.6106ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.1064ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.0657ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:04} | 404 | 1.5718ms | GET     | /favicon.ico ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:05} | 200 | 1.3958ms | GET     | /sign-in ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:05} | 404 | 1.5141ms | GET     | /favicon.ico ","time":"2025-03-01T14:42:05+08:00"}
+{"level":"info","msg":" {14:42:09} | 302 | 47.6988ms | POST    | /auth/login ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 200 | 3.1349ms | GET     | / ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 1.7694ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 2.2862ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 2.2862ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 2.2862ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 2.2862ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 2.2862ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 1.0697ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:42:09} | 404 | 1.0654ms | GET     | /favicon.ico ","time":"2025-03-01T14:42:09+08:00"}
+{"level":"info","msg":" {14:54:11} | 302 | 2.6382ms | POST    | /auth/logout ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 200 | 6.6479ms | GET     | / ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 2.6526ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.6217ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.5594ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.5594ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.052ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.5806ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.5956ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:11} | 404 | 1.575ms | GET     | /favicon.ico ","time":"2025-03-01T14:54:11+08:00"}
+{"level":"info","msg":" {14:54:12} | 200 | 1.482ms | GET     | /sign-in ","time":"2025-03-01T14:54:13+08:00"}
+{"level":"info","msg":" {14:54:12} | 404 | 1.3798ms | GET     | /favicon.ico ","time":"2025-03-01T14:54:13+08:00"}
+{"level":"info","msg":" {14:54:17} | 302 | 49.7295ms | POST    | /auth/login ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 200 | 3.151ms | GET     | / ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.667ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.667ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.0455ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.0455ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.0455ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.5858ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.1074ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":" {14:54:17} | 404 | 1.678ms | GET     | /favicon.ico ","time":"2025-03-01T14:54:18+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T14:55:34+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T14:55:34+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T14:55:44+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T14:55:44+08:00"}
+{"level":"info","msg":" {14:55:48} | 200 | 7.0164ms | GET     | / ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.5959ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 2.1126ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.046ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.5718ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.5718ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.5718ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.0599ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:48} | 404 | 1.6033ms | GET     | /favicon.ico ","time":"2025-03-01T14:55:48+08:00"}
+{"level":"info","msg":" {14:55:49} | 200 | 4.0945ms | GET     | / ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.5821ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.0597ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.0597ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.5821ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.5821ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.0597ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:49} | 404 | 1.0743ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.5555ms | GET     | /favicon.ico ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 200 | 4.0803ms | GET     | / ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.5826ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.0568ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.5834ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.0532ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.5834ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.5834ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.0914ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":" {14:55:50} | 404 | 1.0674ms | GET     | /favicon.ico ","time":"2025-03-01T14:55:50+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T14:58:11+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T14:58:11+08:00"}
+{"level":"info","msg":" {14:58:13} | 200 | 6.8292ms | GET     | / ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.5748ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.5748ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.0696ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.5748ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.6026ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.6026ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.5831ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:13} | 404 | 1.6022ms | GET     | /favicon.ico ","time":"2025-03-01T14:58:14+08:00"}
+{"level":"info","msg":" {14:58:14} | 200 | 3.9619ms | GET     | / ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.4386ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.4386ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.4386ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.9757ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 3.5622ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 2.0556ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.0602ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.5913ms | GET     | /favicon.ico ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 200 | 4.059ms | GET     | / ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1916ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.7198ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1916ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1916ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1916ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1916ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.0632ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.5551ms | GET     | /favicon.ico ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 200 | 3.5105ms | GET     | / ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.6279ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.6279ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.6279ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.6279ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1229ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 |  2.16ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.1018ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:14} | 404 | 1.2408ms | GET     | /favicon.ico ","time":"2025-03-01T14:58:15+08:00"}
+{"level":"info","msg":" {14:58:15} | 404 | 1.4569ms | GET     | /cart ","time":"2025-03-01T14:58:16+08:00"}
+{"level":"info","msg":" {14:58:16} | 404 | 1.4394ms | GET     | /favicon.ico ","time":"2025-03-01T14:58:17+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T15:02:10+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T15:02:10+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T15:03:20+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T15:03:20+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T15:04:04+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T15:04:04+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T15:27:11+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T15:27:11+08:00"}
+{"level":"info","msg":" {15:27:18} | 200 | 11.6588ms | GET     | / ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.5673ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.5673ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.0631ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.0631ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.5906ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.5906ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.5798ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:18} | 404 | 1.6105ms | GET     | /favicon.ico ","time":"2025-03-01T15:27:18+08:00"}
+{"level":"info","msg":" {15:27:25} | 200 | 3.7283ms | GET     | /cart ","time":"2025-03-01T15:27:25+08:00"}
+{"level":"info","msg":" {15:27:25} | 404 | 2.042ms | GET     | /favicon.ico ","time":"2025-03-01T15:27:25+08:00"}
+{"level":"info","msg":" {15:28:07} | 200 | 2.6654ms | GET     | /cart ","time":"2025-03-01T15:28:08+08:00"}
+{"level":"info","msg":" {15:28:07} | 404 | 1.4999ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:08+08:00"}
+{"level":"info","msg":" {15:28:08} | 404 | 1.4469ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:08+08:00"}
+{"level":"info","msg":" {15:28:10} | 302 | 2.5596ms | POST    | /auth/logout ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 200 | 4.7411ms | GET     | / ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.1519ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.1519ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0539ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0539ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0539ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0539ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0679ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:10} | 404 | 1.0888ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:10+08:00"}
+{"level":"info","msg":" {15:28:11} | 200 | 2.5391ms | GET     | /cart ","time":"2025-03-01T15:28:11+08:00"}
+{"level":"info","msg":" {15:28:11} | 404 | 2.057ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:11+08:00"}
+{"level":"info","msg":" {15:28:12} | 404 | 1.5401ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:12+08:00"}
+{"level":"info","msg":" {15:28:13} | 200 | 1.4867ms | GET     | /sign-in ","time":"2025-03-01T15:28:13+08:00"}
+{"level":"info","msg":" {15:28:13} | 404 | 1.5317ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:13+08:00"}
+{"level":"info","msg":" {15:28:29} | 200 | 2.1077ms | GET     | /cart ","time":"2025-03-01T15:28:29+08:00"}
+{"level":"info","msg":" {15:28:29} | 404 | 1.4171ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:30+08:00"}
+{"level":"info","msg":" {15:28:30} | 404 | 1.431ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:30+08:00"}
+{"level":"info","msg":" {15:28:31} | 200 | 1.4569ms | GET     | /sign-in ","time":"2025-03-01T15:28:31+08:00"}
+{"level":"info","msg":" {15:28:31} | 404 | 1.7624ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:31+08:00"}
+{"level":"info","msg":" {15:28:33} | 200 | 1.4318ms | GET     | /sign-in ","time":"2025-03-01T15:28:33+08:00"}
+{"level":"info","msg":" {15:28:33} | 404 | 1.5811ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:33+08:00"}
+{"level":"info","msg":" {15:28:33} | 200 | 1.7689ms | GET     | /sign-in ","time":"2025-03-01T15:28:33+08:00"}
+{"level":"info","msg":" {15:28:33} | 404 | 1.3116ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:33} | 200 | 1.5137ms | GET     | /sign-in ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:33} | 404 | 1.4768ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 200 | 1.3887ms | GET     | /sign-in ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 404 | 1.5253ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 200 | 1.4339ms | GET     | /sign-in ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 404 | 1.6273ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 200 | 1.4941ms | GET     | /sign-in ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 404 | 1.4659ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:34+08:00"}
+{"level":"info","msg":" {15:28:34} | 200 | 1.3088ms | GET     | /sign-in ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:34} | 404 | 1.4836ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 200 | 1.5873ms | GET     | /sign-in ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 404 | 1.4796ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 200 | 1.3481ms | GET     | /sign-in ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 404 | 1.5827ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 200 | 1.3365ms | GET     | /sign-in ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 404 | 1.3077ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 200 | 1.5143ms | GET     | /sign-in ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 404 | 1.3663ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:35+08:00"}
+{"level":"info","msg":" {15:28:35} | 200 | 1.3615ms | GET     | /sign-in ","time":"2025-03-01T15:28:36+08:00"}
+{"level":"info","msg":" {15:28:35} | 404 | 1.755ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:36+08:00"}
+{"level":"info","msg":" {15:28:37} | 200 | 5.3042ms | GET     | / ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.0777ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.5857ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.5857ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.0777ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.0777ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.5857ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.069ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:37} | 404 | 1.053ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:38+08:00"}
+{"level":"info","msg":" {15:28:38} | 200 | 1.4145ms | GET     | /sign-in ","time":"2025-03-01T15:28:39+08:00"}
+{"level":"info","msg":" {15:28:38} | 404 | 1.3999ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:39+08:00"}
+{"level":"info","msg":" {15:28:43} | 302 | 52.6763ms | POST    | /auth/login ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 200 | 3.1415ms | GET     | / ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.7458ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.7458ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.1507ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.7458ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.1507ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.1507ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.0572ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:43} | 404 | 1.5948ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:43+08:00"}
+{"level":"info","msg":" {15:28:44} | 200 | 2.0174ms | GET     | /cart ","time":"2025-03-01T15:28:44+08:00"}
+{"level":"info","msg":" {15:28:44} | 404 | 1.3252ms | GET     | /favicon.ico ","time":"2025-03-01T15:28:44+08:00"}
+{"level":"info","msg":" {15:32:01} | 200 | 7.888ms | GET     | /cart ","time":"2025-03-01T15:32:01+08:00"}
+{"level":"info","msg":" {15:32:01} | 404 | 1.5132ms | GET     | /favicon.ico ","time":"2025-03-01T15:32:01+08:00"}
+{"level":"info","msg":" {15:32:36} | 404 | 2.0965ms | GET     | /favicon.ico ","time":"2025-03-01T15:32:36+08:00"}
+{"level":"info","msg":" {15:33:01} | 200 | 4.3799ms | GET     | /cart ","time":"2025-03-01T15:33:01+08:00"}
+{"level":"info","msg":" {15:33:01} | 404 | 1.4685ms | GET     | /favicon.ico ","time":"2025-03-01T15:33:01+08:00"}
+{"level":"info","msg":" {15:33:06} | 200 | 1.798ms | GET     | /sign-in ","time":"2025-03-01T15:33:06+08:00"}
+{"level":"info","msg":" {15:33:06} | 404 | 1.4511ms | GET     | /favicon.ico ","time":"2025-03-01T15:33:07+08:00"}
+{"level":"info","msg":" {15:33:11} | 302 | 49.7728ms | POST    | /auth/login ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 200 | 6.4857ms | GET     | / ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 | 1.7566ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 | 1.7566ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 |  1.61ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 |  1.61ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 |  1.61ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 |  1.61ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 | 1.6364ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 404 | 1.6423ms | GET     | /favicon.ico ","time":"2025-03-01T15:33:11+08:00"}
+{"level":"info","msg":" {15:33:11} | 200 | 2.5271ms | GET     | /cart ","time":"2025-03-01T15:33:12+08:00"}
+{"level":"info","msg":" {15:33:12} | 404 | 1.3785ms | GET     | /favicon.ico ","time":"2025-03-01T15:33:12+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T15:37:20+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T15:37:20+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T15:54:50+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T15:54:50+08:00"}
+{"level":"info","msg":" {15:54:55} | 200 | 7.0267ms | GET     | /cart ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:55} | 404 | 1.8698ms | GET     | /favicon.ico ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:56} | 200 | 2.378ms | GET     | /cart ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.5894ms | GET     | /favicon.ico ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:56} | 200 | 2.511ms | GET     | /cart ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.604ms | GET     | /favicon.ico ","time":"2025-03-01T15:54:56+08:00"}
+{"level":"info","msg":" {15:54:56} | 200 | 7.286ms | GET     | / ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.6278ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.6278ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.0308ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.5648ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.5648ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.5648ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.5999ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:56} | 404 | 1.0664ms | GET     | /favicon.ico ","time":"2025-03-01T15:54:57+08:00"}
+{"level":"info","msg":" {15:54:59} | 200 | 3.2051ms | GET     | /product ","time":"2025-03-01T15:55:00+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:55:00+08:00"}
+{"level":"info","msg":" {15:54:59} | 404 | 1.3399ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:55:00+08:00"}
+{"level":"info","msg":" {15:54:59} | 404 | 1.5787ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:00+08:00"}
+{"level":"info","msg":" {15:55:02} | 404 | 1.7701ms | POST    | /cart ","time":"2025-03-01T15:55:03+08:00"}
+{"level":"info","msg":" {15:55:17} | 404 | 1.047ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:18+08:00"}
+{"level":"info","msg":" {15:55:19} | 200 | 2.5687ms | GET     | /cart ","time":"2025-03-01T15:55:19+08:00"}
+{"level":"info","msg":" {15:55:19} | 404 | 1.4747ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:19+08:00"}
+{"level":"info","msg":" {15:55:21} | 200 | 1.8729ms | GET     | /cart ","time":"2025-03-01T15:55:21+08:00"}
+{"level":"info","msg":" {15:55:21} | 404 | 1.5241ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:21+08:00"}
+{"level":"info","msg":" {15:55:24} | 404 | 1.5783ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:25+08:00"}
+{"level":"info","msg":" {15:55:25} | 404 | 2.4407ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:25+08:00"}
+{"level":"info","msg":" {15:55:26} | 200 | 3.7086ms | GET     | /product ","time":"2025-03-01T15:55:27+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:55:27+08:00"}
+{"level":"info","msg":" {15:55:26} | 404 | 1.2781ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:55:27+08:00"}
+{"level":"info","msg":" {15:55:26} | 404 | 1.0546ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:27+08:00"}
+{"level":"info","msg":" {15:55:27} | 404 | 1.294ms | POST    | /cart ","time":"2025-03-01T15:55:28+08:00"}
+{"level":"info","msg":" {15:55:29} | 404 | 1.642ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:30+08:00"}
+{"level":"info","msg":" {15:55:29} | 404 | 1.394ms | GET     | /favicon.ico ","time":"2025-03-01T15:55:30+08:00"}
+{"level":"info","msg":" {15:57:40} | 200 | 6.0937ms | GET     | / ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.0534ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5756ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5756ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.0534ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.3763ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.3763ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.0311ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5581ms | GET     | /favicon.ico ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 200 | 4.2613ms | GET     | / ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5758ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5758ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.0555ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5758ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5758ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5758ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.5596ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.1527ms | GET     | /favicon.ico ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 200 | 3.7001ms | GET     | / ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.6819ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.6621ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.6621ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.1285ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.1285ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:40} | 404 | 1.1285ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:41} | 404 | 1.0211ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:41} | 404 | 1.0461ms | GET     | /favicon.ico ","time":"2025-03-01T15:57:41+08:00"}
+{"level":"info","msg":" {15:57:41} | 200 | 2.4534ms | GET     | /product ","time":"2025-03-01T15:57:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T15:57:42+08:00"}
+{"level":"info","msg":" {15:57:41} | 404 | 2.0093ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T15:57:42+08:00"}
+{"level":"info","msg":" {15:57:41} | 404 | 1.5696ms | GET     | /favicon.ico ","time":"2025-03-01T15:57:42+08:00"}
+{"level":"info","msg":" {15:57:42} | 404 | 1.3437ms | POST    | /cart ","time":"2025-03-01T15:57:43+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:07:24+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:07:24+08:00"}
+{"level":"info","msg":" {16:07:39} | 200 | 8.3774ms | GET     | / ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.8684ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.5597ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.0452ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.0452ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.596ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.5926ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.5926ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:39} | 404 | 1.4764ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:40+08:00"}
+{"level":"info","msg":" {16:07:41} | 200 | 5.1935ms | GET     | /cart ","time":"2025-03-01T16:07:41+08:00"}
+{"level":"info","msg":" {16:07:41} | 404 | 1.4146ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:41+08:00"}
+{"level":"info","msg":" {16:07:43} | 404 | 1.5984ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:43+08:00"}
+{"level":"info","msg":" {16:07:44} | 200 | 2.4423ms | GET     | /cart ","time":"2025-03-01T16:07:44+08:00"}
+{"level":"info","msg":" {16:07:44} | 404 | 1.3378ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:44+08:00"}
+{"level":"info","msg":" {16:07:46} | 200 | 2.1352ms | GET     | /cart ","time":"2025-03-01T16:07:46+08:00"}
+{"level":"info","msg":" {16:07:46} | 404 | 1.3548ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:46+08:00"}
+{"level":"info","msg":" {16:07:48} | 200 | 2.8034ms | GET     | /cart ","time":"2025-03-01T16:07:48+08:00"}
+{"level":"info","msg":" {16:07:48} | 404 | 1.2389ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:48+08:00"}
+{"level":"info","msg":" {16:07:49} | 404 | 1.4994ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:49+08:00"}
+{"level":"info","msg":" {16:07:50} | 200 | 2.6923ms | GET     | /product ","time":"2025-03-01T16:07:50+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:07:50+08:00"}
+{"level":"info","msg":" {16:07:50} | 404 | 1.5365ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:07:50+08:00"}
+{"level":"info","msg":" {16:07:50} | 404 | 1.5715ms | GET     | /favicon.ico ","time":"2025-03-01T16:07:50+08:00"}
+{"level":"info","msg":" {16:07:51} | 404 | 2.9705ms | POST    | /cart ","time":"2025-03-01T16:07:51+08:00"}
+{"level":"info","msg":" {16:09:10} | 404 | 1.4929ms | GET     | /favicon.ico ","time":"2025-03-01T16:09:11+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T16:10:11+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T16:10:11+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:10:37+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:10:37+08:00"}
+{"level":"info","msg":" {16:10:39} | 200 | 8.4039ms | GET     | /product ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:39} | 404 | 2.0973ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:39} | 404 | 1.5998ms | GET     | /favicon.ico ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 200 | 2.4998ms | GET     | /product ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 404 | 1.5956ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 404 | 1.4315ms | GET     | /favicon.ico ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 200 | 2.4818ms | GET     | /product ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 404 | 2.1736ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:40} | 404 | 1.2259ms | GET     | /favicon.ico ","time":"2025-03-01T16:10:40+08:00"}
+{"level":"info","msg":" {16:10:43} | 404 | 2.569ms | POST    | /cart ","time":"2025-03-01T16:10:43+08:00"}
+{"level":"info","msg":" {16:10:45} | 404 | 1.4972ms | GET     | /favicon.ico ","time":"2025-03-01T16:10:45+08:00"}
+{"level":"info","msg":" {16:10:45} | 404 | 1.4933ms | GET     | /favicon.ico ","time":"2025-03-01T16:10:46+08:00"}
+{"level":"info","msg":" {16:13:26} | 200 | 5.7491ms | GET     | /product ","time":"2025-03-01T16:13:27+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:13:27+08:00"}
+{"level":"info","msg":" {16:13:26} | 404 | 1.4872ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:13:27+08:00"}
+{"level":"info","msg":" {16:13:26} | 404 | 1.0644ms | GET     | /favicon.ico ","time":"2025-03-01T16:13:27+08:00"}
+{"level":"info","msg":" {16:13:27} | 404 | 1.5522ms | POST    | /cart ","time":"2025-03-01T16:13:28+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T16:16:51+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T16:16:51+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:16:54+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:16:54+08:00"}
+{"level":"info","msg":" {16:16:58} | 404 | 1.6942ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:58+08:00"}
+{"level":"info","msg":" {16:16:58} | 200 | 5.2121ms | GET     | /product ","time":"2025-03-01T16:16:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:58} | 404 | 1.602ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:58} | 404 | 1.0476ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:58} | 200 | 2.3429ms | GET     | /product ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.5441ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.5974ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 200 | 2.3624ms | GET     | /product ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.6386ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.6102ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 200 | 2.5746ms | GET     | /product ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.5674ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.0654ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 200 | 2.5157ms | GET     | /product ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 | 1.0318ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:16:59} | 404 |  1.13ms | GET     | /favicon.ico ","time":"2025-03-01T16:16:59+08:00"}
+{"level":"info","msg":" {16:17:00} | 404 | 2.3185ms | POST    | /cart ","time":"2025-03-01T16:17:01+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:25:39+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:25:39+08:00"}
+{"level":"info","msg":" {16:25:42} | 404 | 1.5407ms | GET     | /favicon.ico ","time":"2025-03-01T16:25:43+08:00"}
+{"level":"info","msg":" {16:25:43} | 404 | 1.8824ms | POST    | /cart ","time":"2025-03-01T16:25:44+08:00"}
+{"level":"info","msg":" {16:25:46} | 404 | 1.3628ms | GET     | /favicon.ico ","time":"2025-03-01T16:25:47+08:00"}
+{"level":"info","msg":" {16:25:52} | 404 | 1.5857ms | GET     | /api/cart ","time":"2025-03-01T16:25:52+08:00"}
+{"level":"info","msg":" {16:25:53} | 404 | 1.5765ms | GET     | /favicon.ico ","time":"2025-03-01T16:25:54+08:00"}
+{"level":"info","msg":" {16:26:26} | 200 | 5.7008ms | GET     | /product ","time":"2025-03-01T16:26:27+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:26:27+08:00"}
+{"level":"info","msg":" {16:26:26} | 404 | 1.2702ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:26:27+08:00"}
+{"level":"info","msg":" {16:26:26} | 404 | 1.5775ms | GET     | /favicon.ico ","time":"2025-03-01T16:26:27+08:00"}
+{"level":"info","msg":" {16:26:27} | 404 | 1.0134ms | POST    | /api/cart ","time":"2025-03-01T16:26:27+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:29:59+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:29:59+08:00"}
+{"level":"info","msg":" {16:29:59} | 404 | 1.9325ms | GET     | /favicon.ico ","time":"2025-03-01T16:29:59+08:00"}
+{"level":"info","msg":" {16:30:00} | 404 | 1.5996ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:00+08:00"}
+{"level":"info","msg":" {16:30:06} | 200 | 5.1209ms | GET     | /product ","time":"2025-03-01T16:30:06+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:06+08:00"}
+{"level":"info","msg":" {16:30:06} | 404 | 1.3231ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:30:06+08:00"}
+{"level":"info","msg":" {16:30:06} | 404 | 1.631ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:06+08:00"}
+{"level":"info","msg":" {16:30:06} | 302 | 14.0861ms | POST    | /cart ","time":"2025-03-01T16:30:07+08:00"}
+{"level":"info","msg":" {16:30:06} | 200 | 3.6755ms | GET     | /cart ","time":"2025-03-01T16:30:07+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:07+08:00"}
+{"level":"info","msg":" {16:30:06} | 404 | 1.4655ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:30:07+08:00"}
+{"level":"info","msg":" {16:30:06} | 404 | 1.5783ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:07+08:00"}
+{"level":"info","msg":" {16:30:34} | 404 | 1.5714ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:34+08:00"}
+{"level":"info","msg":" {16:30:36} | 200 | 5.5265ms | GET     | /cart ","time":"2025-03-01T16:30:36+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:36+08:00"}
+{"level":"info","msg":" {16:30:36} | 404 | 1.3813ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:30:36+08:00"}
+{"level":"info","msg":" {16:30:36} | 404 | 1.6028ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:36+08:00"}
+{"level":"info","msg":" {16:30:38} | 404 | 1.4062ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:39+08:00"}
+{"level":"info","msg":" {16:30:40} | 200 | 4.5237ms | GET     | / ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.562ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.562ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.0583ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.5931ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.0637ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.5931ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.5893ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:40} | 404 | 1.0625ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:40+08:00"}
+{"level":"info","msg":" {16:30:42} | 200 | 2.6895ms | GET     | /product ","time":"2025-03-01T16:30:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:42+08:00"}
+{"level":"info","msg":" {16:30:42} | 404 | 1.4029ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:30:42+08:00"}
+{"level":"info","msg":" {16:30:42} | 404 | 1.0924ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:42+08:00"}
+{"level":"info","msg":" {16:30:43} | 302 | 7.8938ms | POST    | /cart ","time":"2025-03-01T16:30:43+08:00"}
+{"level":"info","msg":" {16:30:43} | 200 | 3.1785ms | GET     | /cart ","time":"2025-03-01T16:30:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:43+08:00"}
+{"level":"info","msg":" {16:30:43} | 404 | 1.4001ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:30:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:30:43+08:00"}
+{"level":"info","msg":" {16:30:43} | 404 | 1.4001ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:30:43+08:00"}
+{"level":"info","msg":" {16:30:43} | 404 | 1.0518ms | GET     | /favicon.ico ","time":"2025-03-01T16:30:43+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:31:12+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:31:12+08:00"}
+{"level":"info","msg":" {16:31:13} | 200 | 8.6957ms | GET     | /cart ","time":"2025-03-01T16:31:13+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:13+08:00"}
+{"level":"info","msg":" {16:31:13} | 404 | 1.5759ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:31:13+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:13+08:00"}
+{"level":"info","msg":" {16:31:13} | 404 | 1.5759ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:31:13+08:00"}
+{"level":"info","msg":" {16:31:13} | 404 | 1.7436ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:13+08:00"}
+{"level":"info","msg":" {16:31:14} | 200 | 3.4392ms | GET     | /cart ","time":"2025-03-01T16:31:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:14+08:00"}
+{"level":"info","msg":" {16:31:14} | 404 | 1.3469ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:31:14+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:14+08:00"}
+{"level":"info","msg":" {16:31:14} | 404 | 1.8717ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:31:14+08:00"}
+{"level":"info","msg":" {16:31:14} | 404 | 1.0949ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:14+08:00"}
+{"level":"info","msg":" {16:31:15} | 200 | 3.7215ms | GET     | /cart ","time":"2025-03-01T16:31:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:15+08:00"}
+{"level":"info","msg":" {16:31:15} | 404 | 1.6188ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:31:15+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:15+08:00"}
+{"level":"info","msg":" {16:31:15} | 404 | 1.6188ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:31:15+08:00"}
+{"level":"info","msg":" {16:31:15} | 404 | 1.6407ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:15+08:00"}
+{"level":"info","msg":" {16:31:15} | 404 | 1.5211ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:15+08:00"}
+{"level":"info","msg":" {16:31:17} | 200 | 4.1025ms | GET     | /cart ","time":"2025-03-01T16:31:17+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:17+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:17+08:00"}
+{"level":"info","msg":" {16:31:17} | 404 | 1.3021ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:31:17+08:00"}
+{"level":"info","msg":" {16:31:17} | 404 | 1.3021ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:31:17+08:00"}
+{"level":"info","msg":" {16:31:17} | 404 | 1.5793ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:17+08:00"}
+{"level":"info","msg":" {16:31:19} | 404 | 1.3768ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:19+08:00"}
+{"level":"info","msg":" {16:31:19} | 404 | 1.3923ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:19+08:00"}
+{"level":"info","msg":" {16:31:21} | 200 | 2.5678ms | GET     | /product ","time":"2025-03-01T16:31:21+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:21+08:00"}
+{"level":"info","msg":" {16:31:21} | 404 | 1.3441ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:31:21+08:00"}
+{"level":"info","msg":" {16:31:21} | 404 | 1.603ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:21+08:00"}
+{"level":"info","msg":" {16:31:24} | 302 | 8.8605ms | POST    | /cart ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":" {16:31:24} | 200 | 4.2875ms | GET     | /cart ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":" {16:31:24} | 404 | 1.6369ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":" {16:31:24} | 404 | 1.6369ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":" {16:31:24} | 404 | 1.026ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":" {16:31:24} | 404 | 1.1624ms | GET     | /favicon.ico ","time":"2025-03-01T16:31:24+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T16:32:57+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T16:32:57+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:33:37+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:33:37+08:00"}
+{"level":"info","msg":" {16:33:40} | 200 | 10.2206ms | GET     | /cart ","time":"2025-03-01T16:33:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:40+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 2.1557ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:40+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.6246ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:40+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:40+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.6246ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:40+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.7753ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:40+08:00"}
+{"level":"info","msg":" {16:33:40} | 200 | 4.5793ms | GET     | /cart ","time":"2025-03-01T16:33:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:41+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.0673ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:41+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:41+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.5956ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:41+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.0673ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:41+08:00"}
+{"level":"info","msg":" {16:33:40} | 404 | 1.339ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:41+08:00"}
+{"level":"info","msg":" {16:33:42} | 200 | 4.7842ms | GET     | /cart ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 2.5749ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 2.5749ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 2.5749ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 1.5907ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 200 | 4.5356ms | GET     | /cart ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 1.4748ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 1.4748ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 1.4748ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:42} | 404 | 1.5692ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:42+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.074ms | GET     | /cart ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5751ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.0557ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5805ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.2113ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.6723ms | GET     | /cart ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5776ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.0542ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.0542ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 2.4872ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.1039ms | GET     | /cart ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6109ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6109ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6109ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.1608ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.6305ms | GET     | /cart ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 2.1599ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6279ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6279ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.1822ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:43+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.7779ms | GET     | /cart ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5265ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5265ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.5265ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.0475ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 200 | 4.537ms | GET     | /cart ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.1461ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6737ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.6737ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:43} | 404 | 1.3426ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 200 | 4.4457ms | GET     | /cart ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.5559ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.5643ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.5643ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.0676ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:44+08:00"}
+{"level":"info","msg":" {16:33:44} | 200 | 4.5599ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 2.1241ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.5944ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.5944ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:44} | 404 | 1.2121ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 200 | 4.7471ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5893ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5893ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.0585ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.1709ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 200 | 4.448ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.4517ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.4517ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.4517ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.1457ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 200 | 5.0672ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.581ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.581ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.581ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.0896ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 200 | 4.5227ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5562ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5562ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5562ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.4114ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 200 | 5.178ms | GET     | /cart ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.5989ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.0683ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.0683ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:45+08:00"}
+{"level":"info","msg":" {16:33:45} | 404 | 1.3087ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:46+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T16:33:54+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T16:33:54+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:33:57+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:33:57+08:00"}
+{"level":"info","msg":" {16:33:58} | 200 | 10.1693ms | GET     | /cart ","time":"2025-03-01T16:33:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:58+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 |  1.58ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:58+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5979ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:58+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:58+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5979ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:58+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5966ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:58+08:00"}
+{"level":"info","msg":" {16:33:58} | 200 | 4.4757ms | GET     | /cart ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5702ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 2.0937ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 2.0937ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.1923ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 200 | 4.8508ms | GET     | /cart ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5773ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.5895ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.6709ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:58} | 404 | 1.6546ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 200 | 4.5435ms | GET     | /cart ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.0588ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.5888ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.5888ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.2948ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 200 | 4.7184ms | GET     | /cart ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.5683ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 2.0926ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.5683ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.996ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 200 | 4.5075ms | GET     | /cart ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.4349ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.4349ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.4349ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:33:59} | 404 | 1.6618ms | GET     | /favicon.ico ","time":"2025-03-01T16:33:59+08:00"}
+{"level":"info","msg":" {16:34:01} | 200 | 3.9647ms | GET     | / ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.0499ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-1.jpeg\", error=open ./static/image/t-shirt-1.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.1323ms | GET     | /static/image/t-shirt-1.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/sweatshirt.jpeg\", error=open ./static/image/sweatshirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.0684ms | GET     | /static/image/sweatshirt.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt-2.jpeg\", error=open ./static/image/t-shirt-2.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.5621ms | GET     | /static/image/t-shirt-2.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.0705ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.0601ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/logo.jpg\", error=open ./static/image/logo.jpg: The system cannot find the file specified.","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:01} | 404 | 1.6313ms | GET     | /static/image/logo.jpg ","time":"2025-03-01T16:34:01+08:00"}
+{"level":"info","msg":" {16:34:02} | 404 | 1.576ms | GET     | /favicon.ico ","time":"2025-03-01T16:34:03+08:00"}
+{"level":"info","msg":" {16:34:04} | 200 | 5.9258ms | GET     | /cart ","time":"2025-03-01T16:34:04+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:04+08:00"}
+{"level":"info","msg":" {16:34:04} | 404 | 1.5775ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:34:04+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:04+08:00"}
+{"level":"info","msg":" {16:34:04} | 404 | 1.5775ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:34:04+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:04+08:00"}
+{"level":"info","msg":" {16:34:04} | 404 | 1.0507ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:34:04+08:00"}
+{"level":"info","msg":" {16:34:04} | 404 | 1.6063ms | GET     | /favicon.ico ","time":"2025-03-01T16:34:04+08:00"}
+{"level":"info","msg":" {16:34:05} | 404 | 1.5277ms | GET     | /favicon.ico ","time":"2025-03-01T16:34:05+08:00"}
+{"level":"info","msg":" {16:34:06} | 200 | 2.665ms | GET     | /product ","time":"2025-03-01T16:34:06+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:06+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.3981ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:34:06+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.0562ms | GET     | /favicon.ico ","time":"2025-03-01T16:34:06+08:00"}
+{"level":"info","msg":" {16:34:06} | 302 | 11.624ms | POST    | /cart ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":" {16:34:06} | 200 | 4.2552ms | GET     | /cart ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.4265ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.4265ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.4265ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":" {16:34:06} | 404 | 1.3144ms | GET     | /favicon.ico ","time":"2025-03-01T16:34:07+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-01T16:39:32+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-01T16:39:32+08:00"}
+{"level":"info","msg":" {16:39:32} | 200 | 11.2173ms | GET     | /cart ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:32} | 404 | 1.5591ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:32} | 404 | 2.0812ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:32} | 404 | 1.5691ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:32} | 404 | 1.5512ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 200 | 5.2496ms | GET     | /cart ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.6034ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.6034ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.6034ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.5689ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 200 | 4.6558ms | GET     | /cart ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.5447ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.5447ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.5447ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:33} | 404 | 1.387ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:33+08:00"}
+{"level":"info","msg":" {16:39:34} | 200 | 5.169ms | GET     | /cart ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.0384ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.563ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.0384ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.5057ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 200 | 4.7655ms | GET     | /cart ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.3673ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 2.8775ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.3673ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.1488ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:34+08:00"}
+{"level":"info","msg":" {16:39:34} | 200 | 4.5433ms | GET     | /cart ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.5988ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.6165ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.6165ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.4098ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 200 | 4.6395ms | GET     | /cart ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.9865ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.4557ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.4557ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.6516ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 200 | 4.5748ms | GET     | /cart ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.6578ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.1255ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.6578ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:34} | 404 | 1.4913ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 200 | 4.4461ms | GET     | /cart ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 404 | 1.4958ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 404 | 1.4958ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 404 | 1.4958ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 404 | 1.0624ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:35+08:00"}
+{"level":"info","msg":" {16:39:35} | 404 | 1.3584ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:36+08:00"}
+{"level":"info","msg":" {16:39:38} | 302 | 8.2768ms | POST    | /cart ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":" {16:39:38} | 200 | 3.6764ms | GET     | /cart ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/notebook.jpeg\", error=open ./static/image/notebook.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":" {16:39:38} | 404 | 1.5508ms | GET     | /static/image/notebook.jpeg ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/mouse-pad.jpeg\", error=open ./static/image/mouse-pad.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":" {16:39:38} | 404 | 1.5508ms | GET     | /static/image/mouse-pad.jpeg ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"error","msg":"HERTZ: Cannot open file=\"./static/image/t-shirt.jpeg\", error=open ./static/image/t-shirt.jpeg: The system cannot find the file specified.","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":" {16:39:38} | 404 | 1.5508ms | GET     | /static/image/t-shirt.jpeg ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":" {16:39:38} | 404 | 1.572ms | GET     | /favicon.ico ","time":"2025-03-01T16:39:39+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-01T16:51:06+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-01T16:51:06+08:00"}
+{"level":"info","msg":"HERTZ: Using network library=standard","time":"2025-03-02T10:38:34+08:00"}
+{"level":"info","msg":"HERTZ: HTTP server listening on address=[::]:8080","time":"2025-03-02T10:38:34+08:00"}
+{"level":"info","msg":"HERTZ: Received signal: interrupt\n","time":"2025-03-02T10:40:01+08:00"}
+{"level":"info","msg":"HERTZ: Begin graceful shutdown, wait at most num=5 seconds...","time":"2025-03-02T10:40:01+08:00"}

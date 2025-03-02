@@ -21,7 +21,7 @@ func NewRegisterService(ctx context.Context) *RegisterService {
 func (s *RegisterService) Run(req *user.RegisterReq) (resp *user.RegisterResp, err error) {
 	// Finish your business logic.
 
-	if req.Password != req.ConfirmPassword {
+	if req.Password != req.PasswordConfirm {
 		return nil, errors.New("password not match")
 	}
 	passwordHashed, err := bcrypt.GenerateFromPassword([]byte(req.Password), bcrypt.DefaultCost)
