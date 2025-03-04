@@ -45,3 +45,5 @@
 {"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:55706, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:55706: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-02T15:23:38+08:00"}
 {"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-03-02T15:23:50+08:00"}
 {"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.152.204.195:55852, error=default codec read failed: read tcp 10.152.204.195:8888-\u003e10.152.204.195:55852: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-02T15:24:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-03-04T10:29:10+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8888","time":"2025-03-04T10:42:03+08:00"}

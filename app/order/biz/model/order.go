@@ -30,7 +30,7 @@ func (Order) TableName() string {
 
 func ListOrder(ctx context.Context, db *gorm.DB, userId uint32) ([]*Order, error) {
 	var orders []*Order
-	err := db.WithContext(ctx).Where("user_id = ?", userId).Preload("CreditCards").Find(&orders).Error
+	err := db.WithContext(ctx).Where("user_id = ?", userId).Preload("OrderItems").Find(&orders).Error
 	if err != nil {
 		return nil, err
 	}
