@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"github.com/ZanmoNG/gomall/app/order/biz/service"
-	
+	order "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/order"
 )
 
 // OrderServiceImpl implements the last service interface defined in the IDL.
@@ -19,13 +19,6 @@ func (s *OrderServiceImpl) PlaceOrder(ctx context.Context, req *order.PlaceOrder
 // ListOrder implements the OrderServiceImpl interface.
 func (s *OrderServiceImpl) ListOrder(ctx context.Context, req *order.ListOrderReq) (resp *order.ListOrderResp, err error) {
 	resp, err = service.NewListOrderService(ctx).Run(req)
-
-	return resp, err
-}
-
-// MarkOrderPaid implements the OrderServiceImpl interface.
-func (s *OrderServiceImpl) MarkOrderPaid(ctx context.Context, req *order.MarkOrderPaidReq) (resp *order.MarkOrderPaidResp, err error) {
-	resp, err = service.NewMarkOrderPaidService(ctx).Run(req)
 
 	return resp, err
 }

@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+
 	"github.com/ZanmoNG/gomall/app/order/biz/dal/mysql"
 	"github.com/ZanmoNG/gomall/app/order/biz/model"
 	"github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/cart"
@@ -11,9 +12,7 @@ import (
 
 type ListOrderService struct {
 	ctx context.Context
-}
-
-// Run create note info
+} // NewListOrderService new ListOrderService
 func NewListOrderService(ctx context.Context) *ListOrderService {
 	return &ListOrderService{ctx: ctx}
 }
@@ -23,9 +22,9 @@ func (s *ListOrderService) Run(req *order.ListOrderReq) (resp *order.ListOrderRe
 	// Finish your business logic.
 	list, err := model.ListOrder(s.ctx, mysql.DB, req.UserId)
 	if err != nil {
-
 		return nil, kerrors.NewBizStatusError(500001, err.Error())
 	}
+
 	var orders []*order.Order
 	for _, v := range list {
 		var items []*order.OrderItem
@@ -42,6 +41,7 @@ func (s *ListOrderService) Run(req *order.ListOrderReq) (resp *order.ListOrderRe
 			OrderId:      v.OrderId,
 			UserId:       v.UserId,
 			UserCurrency: v.UserCurrency,
+			Email:        v.Consignee.Email,
 			Address: &order.Address{
 				StreetAddress: v.Consignee.StreetAddress,
 				Country:       v.Consignee.Country,
@@ -49,11 +49,13 @@ func (s *ListOrderService) Run(req *order.ListOrderReq) (resp *order.ListOrderRe
 				State:         v.Consignee.State,
 				ZipCode:       v.Consignee.ZipCode,
 			},
-			Email: v.Consignee.Email,
+			OrderItems: items,
 		})
 	}
+
 	resp = &order.ListOrderResp{
 		Orders: orders,
 	}
+
 	return
 }

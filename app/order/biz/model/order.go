@@ -2,6 +2,7 @@ package model
 
 import (
 	"context"
+
 	"gorm.io/gorm"
 )
 
@@ -14,14 +15,6 @@ type Consignee struct {
 	ZipCode       int32
 }
 
-type OrderState string
-
-const (
-	OrderStatePlaced   OrderState = "placed"
-	OrderStatePaid     OrderState = "paid"
-	OrderStateCanceled OrderState = "canceled"
-)
-
 type Order struct {
 	gorm.Model
 	OrderId      string      `gorm:"type:varchar(100);uniqueIndex"`
@@ -31,7 +24,7 @@ type Order struct {
 	OrderItems   []OrderItem `gorm:"foreignKey:OrderIdRefer;references:OrderId"`
 }
 
-func (o Order) TableName() string {
+func (Order) TableName() string {
 	return "order"
 }
 

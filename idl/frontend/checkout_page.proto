@@ -12,7 +12,7 @@ message CheckoutReq {
   string firstname = 2 [(api.form) = "firstname"];
   string lastname = 3 [(api.form) = "lastname"];
   string street = 4 [(api.form) = "street"];
-  string zipcode = 5 [(api.form) = "zipcode"];
+  uint32 zipcode = 5 [(api.form) = "zipcode"];
   string province = 6 [(api.form) = "province"];
   string country = 7 [(api.form) = "country"];
   string city = 8 [(api.form) = "city"];

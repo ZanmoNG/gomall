@@ -2,6 +2,7 @@ package service
 
 import (
 	"context"
+
 	"github.com/ZanmoNG/gomall/app/order/biz/dal/mysql"
 	"github.com/ZanmoNG/gomall/app/order/biz/model"
 	order "github.com/ZanmoNG/gomall/rpc_gen/kitex_gen/order"
@@ -19,15 +20,15 @@ func NewPlaceOrderService(ctx context.Context) *PlaceOrderService {
 
 // Run create note info
 func (s *PlaceOrderService) Run(req *order.PlaceOrderReq) (resp *order.PlaceOrderResp, err error) {
-	// Finish your business logic.
 	if len(req.OrderItems) == 0 {
 		err = kerrors.NewBizStatusError(500001, "items is empty")
 		return
 	}
+
 	err = mysql.DB.Transaction(func(tx *gorm.DB) error {
 		orderId, _ := uuid.NewUUID()
 
-		o := model.Order{
+		o := &model.Order{
 			OrderId:      orderId.String(),
 			UserId:       req.UserId,
 			UserCurrency: req.UserCurrency,
@@ -37,18 +38,19 @@ func (s *PlaceOrderService) Run(req *order.PlaceOrderReq) (resp *order.PlaceOrde
 		}
 		if req.Address != nil {
 			a := req.Address
-			o.Consignee.StreetAddress = a.StreetAddress
-			o.Consignee.City = a.City
-			o.Consignee.State = a.State
 			o.Consignee.Country = a.Country
+			o.Consignee.State = a.State
+			o.Consignee.City = a.City
+			o.Consignee.StreetAddress = a.StreetAddress
 		}
-		if err := tx.Create(&o).Error; err != nil {
+		if err := tx.Create(o).Error; err != nil {
 			return err
 		}
+
 		var items []model.OrderItem
 		for _, v := range req.OrderItems {
 			items = append(items, model.OrderItem{
-				OrderIdRefer: orderId.String(),
+				OrderIdRefer: o.OrderId,
 				ProductId:    v.Item.ProductId,
 				Quantity:     v.Item.Quantity,
 				Cost:         v.Cost,
@@ -62,6 +64,7 @@ func (s *PlaceOrderService) Run(req *order.PlaceOrderReq) (resp *order.PlaceOrde
 				OrderId: orderId.String(),
 			},
 		}
+
 		return nil
 	})
 

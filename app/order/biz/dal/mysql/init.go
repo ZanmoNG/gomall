@@ -2,9 +2,11 @@ package mysql
 
 import (
 	"fmt"
+	"os"
+
 	"github.com/ZanmoNG/gomall/app/order/biz/model"
 	"github.com/ZanmoNG/gomall/app/order/conf"
-	"os"
+	"github.com/cloudwego/kitex/pkg/klog"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
@@ -29,7 +31,7 @@ func Init() {
 	if os.Getenv("GO_ENV") != "online" {
 		err := DB.AutoMigrate(model.Order{}, &model.OrderItem{})
 		if err != nil {
-			return
+			klog.Error(err)
 		}
 	}
 }

@@ -23,8 +23,8 @@ func Init() {
 			SkipDefaultTransaction: true,
 		},
 	)
-	DB.AutoMigrate(&model.User{})
+	err := DB.AutoMigrate(&model.User{})
 	if err != nil {
-		panic(err)
+		return
 	}
 }

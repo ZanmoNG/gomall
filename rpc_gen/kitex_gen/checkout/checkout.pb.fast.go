@@ -74,7 +74,7 @@ func (x *Address) fastReadField4(buf []byte, _type int8) (offset int, err error)
 }
 
 func (x *Address) fastReadField5(buf []byte, _type int8) (offset int, err error) {
-	x.ZipCode, offset, err = fastpb.ReadString(buf, _type)
+	x.ZipCode, offset, err = fastpb.ReadUint32(buf, _type)
 	return offset, err
 }
 
@@ -243,10 +243,10 @@ func (x *Address) fastWriteField4(buf []byte) (offset int) {
 }
 
 func (x *Address) fastWriteField5(buf []byte) (offset int) {
-	if x.ZipCode == "" {
+	if x.ZipCode == 0 {
 		return offset
 	}
-	offset += fastpb.WriteString(buf[offset:], 5, x.GetZipCode())
+	offset += fastpb.WriteUint32(buf[offset:], 5, x.GetZipCode())
 	return offset
 }
 
@@ -381,10 +381,10 @@ func (x *Address) sizeField4() (n int) {
 }
 
 func (x *Address) sizeField5() (n int) {
-	if x.ZipCode == "" {
+	if x.ZipCode == 0 {
 		return n
 	}
-	n += fastpb.SizeString(5, x.GetZipCode())
+	n += fastpb.SizeUint32(5, x.GetZipCode())
 	return n
 }
 

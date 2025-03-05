@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/ZanmoNG/gomall/app/order/conf"
-	
+	"github.com/redis/go-redis/v9"
 )
 
 var (

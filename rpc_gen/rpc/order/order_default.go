@@ -24,12 +24,3 @@ func ListOrder(ctx context.Context, req *order.ListOrderReq, callOptions ...call
 	}
 	return resp, nil
 }
-
-func MarkOrderPaid(ctx context.Context, req *order.MarkOrderPaidReq, callOptions ...callopt.Option) (resp *order.MarkOrderPaidResp, err error) {
-	resp, err = defaultClient.MarkOrderPaid(ctx, req, callOptions...)
-	if err != nil {
-		klog.CtxErrorf(ctx, "MarkOrderPaid call failed,err =%+v", err)
-		return nil, err
-	}
-	return resp, nil
-}

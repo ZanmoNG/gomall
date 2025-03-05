@@ -86,7 +86,10 @@ func registerMiddleware(h *server.Hertz) {
 	}
 	hlog.SetOutput(asyncWriter)
 	h.OnShutdown = append(h.OnShutdown, func(ctx context.Context) {
-		asyncWriter.Sync()
+		err := asyncWriter.Sync()
+		if err != nil {
+			return
+		}
 	})
 
 	// pprof

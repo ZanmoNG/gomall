@@ -10,6 +10,6 @@ type OrderItem struct {
 	Cost         float32 `gorm:"type:decimal(10,2)"`
 }
 
-func (oi OrderItem) TableName() string {
+func (OrderItem) TableName() string {
 	return "order_item"
 }

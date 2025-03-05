@@ -77,7 +77,10 @@ func initConf() {
 
 	conf.Env = GetEnv()
 
-	pretty.Printf("%+v\n", conf)
+	_, err = pretty.Printf("%+v\n", conf)
+	if err != nil {
+		return
+	}
 }
 
 func GetEnv() string {

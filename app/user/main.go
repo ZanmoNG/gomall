@@ -68,7 +68,10 @@ func kitexInit() (opts []server.Option) {
 	}
 	klog.SetOutput(asyncWriter)
 	server.RegisterShutdownHook(func() {
-		asyncWriter.Sync()
+		err := asyncWriter.Sync()
+		if err != nil {
+			return
+		}
 	})
 	return
 }
