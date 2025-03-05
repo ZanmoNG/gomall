@@ -17,3 +17,15 @@
 {"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8883","time":"2025-03-02T15:23:53+08:00"}
 {"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8883","time":"2025-03-04T10:29:11+08:00"}
 {"level":"info","msg":"KITEX: server listen at addr=10.152.204.195:8883","time":"2025-03-04T10:42:05+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.163.209.201:8883","time":"2025-03-04T21:20:59+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.163.209.201:8883","time":"2025-03-04T21:46:24+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.163.209.201:8883","time":"2025-03-04T22:47:12+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.163.209.201:40933, error=default codec read failed: read tcp 10.163.209.201:8883-\u003e10.163.209.201:40933: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-04T23:09:36+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.163.209.201:41144, error=default codec read failed: read tcp 10.163.209.201:8883-\u003e10.163.209.201:41144: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-04T23:10:24+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.163.209.201:17004, error=default codec read failed: read tcp 10.163.209.201:8883-\u003e10.163.209.201:17004: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-04T23:15:59+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.163.209.201:17205, error=default codec read failed: read tcp 10.163.209.201:8883-\u003e10.163.209.201:17205: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-04T23:16:47+08:00"}
+{"level":"error","msg":"KITEX: processing request error, remoteService=, remoteAddr=10.163.209.201:17371, error=default codec read failed: read tcp 10.163.209.201:8883-\u003e10.163.209.201:17371: wsarecv: An existing connection was forcibly closed by the remote host.","time":"2025-03-04T23:18:16+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=10.163.209.201:8883","time":"2025-03-04T23:34:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8883","time":"2025-03-04T23:54:53+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8883","time":"2025-03-05T00:16:20+08:00"}
+{"level":"info","msg":"KITEX: server listen at addr=[::]:8883","time":"2025-03-05T00:28:00+08:00"}

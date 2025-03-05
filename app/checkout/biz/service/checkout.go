@@ -2,6 +2,10 @@ package service
 
 import (
 	"context"
+	"github.com/cloudwego/biz-demo/gomall/app/checkout/infra/mq"
+	"github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/email"
+	"github.com/nats-io/nats.go"
+	"google.golang.org/protobuf/proto"
 	"strconv"
 
 	"github.com/cloudwego/biz-demo/gomall/app/checkout/infra/rpc"
@@ -110,6 +114,18 @@ func (s *CheckoutService) Run(req *checkout.CheckoutReq) (resp *checkout.Checkou
 	if err != nil {
 		return nil, err
 	}
+
+	data, _ := proto.Marshal(&email.EmailReq{
+		From:        "from@example.com",
+		To:          req.Email,
+		ContentType: "text/plain",
+		Subject:     "You have just created an order in the Dream Shop",
+		Content:     "You have just created an order in the Dream Shop",
+	})
+
+	msg := &nats.Msg{Subject: "email", Data: data}
+
+	_ = mq.Nc.PublishMsg(msg)
 
 	klog.Info(paymentResult)
 

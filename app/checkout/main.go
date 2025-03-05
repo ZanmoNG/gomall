@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/cloudwego/biz-demo/gomall/app/email/infra/mq"
 	"net"
 	"time"
 
@@ -19,6 +20,7 @@ import (
 
 func main() {
 	_ = godotenv.Load()
+	mq.Init()
 	rpc.InitClient()
 
 	opts := kitexInit()

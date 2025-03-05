@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	checkout "github.com/cloudwego/biz-demo/gomall/rpc_gen/kitex_gen/checkout"
 	"github.com/cloudwego/biz-demo/gomall/app/checkout/biz/service"
+	
 )
 
 // CheckoutServiceImpl implements the last service interface defined in the IDL.

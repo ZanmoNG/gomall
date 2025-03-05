@@ -1,6 +1,6 @@
 kitex:
   service: "payment"
-  address: "10.152.204.195:8884"
+  address: ":8884"
   log_level: info
   log_file_name: "log/kitex.log"
   log_max_size: 10
