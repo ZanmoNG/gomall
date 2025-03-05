@@ -1,0 +1,13 @@
+go 1.23.5
+
+use (
+	./app/cart
+	./app/checkout
+	./app/frontend
+	./app/order
+	./app/payment
+	./app/product
+	./app/user
+	rpc_gen
+	app/email
+)
